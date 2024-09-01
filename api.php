@@ -40,5 +40,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 /*
- * @todo GitHub (Link auf GitHub in Settings), Readme andere todos
+ * @todo Readme, andere todos
  */

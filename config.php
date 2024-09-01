@@ -37,6 +37,7 @@
     <h1 class="text-center mb-4">Digitales Türschild-Dashboard</h1>
     <div class="d-flex justify-content-end mb-3">
         <div class="btn-group" role="group">
+            <button type="button" id="openGitHub" class="btn btn-outline-secondary"><i class="bi bi-github"></i></button>
             <button type="button" id="openDoorsign" class="btn btn-outline-secondary"><i class="bi bi-box-arrow-up-right"></i></button>
             <button type="button" id="openSettingsModal" class="btn btn-outline-secondary"><i class="bi bi-gear"></i></i></button>
             <button type="button" id="saveDashboard" class="btn btn-primary"><i class="bi bi-check-all"></i> Speichern</button>
@@ -335,6 +336,15 @@
                             </div>
                         </div>
                     </div>
+                    <hr>
+                    <div class="container">
+                        <p>
+                            Dieses Projekt ist quelloffen und unter der <a target="_blank" href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License Version 2.0</a> lizensiert.
+                            Der Source Code und eine kleine Dokumentation zur Bedienung und Installation ist auf <a target="_blank" href="https://github.com/modelrailroader/digital-doorsign">GitHub</a> abrufbar.
+                            Hier können auch Issues gemeldet werden.
+                            <br>Created with ❤ by Jan Harms
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="modal-footer">
@@ -361,6 +371,7 @@
     const smallText = document.getElementById('smallText');
     const openSettings = document.getElementById('openSettingsModal');
     const saveSettings = document.getElementById('saveSettings');
+    const openGitHub = document.getElementById('openGitHub');
 
     // Show selected status
     buttonGreen.addEventListener('click', (event) => {
@@ -385,10 +396,16 @@
         selectedStatusText.setAttribute('data-status', 'red');
     });
 
-    // Open Link to doorsign in new tab
+    // Open link to doorsign in new tab
     openDoorsign.addEventListener('click', (event) => {
         event.preventDefault();
-        window.open('index.html', '_blank');
+        window.open('index.php', '_blank');
+    });
+
+    // Open source code on GitHub in new tab
+    openGitHub.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.open('https://github.com/modelrailroader/digital-doorsign', '_blank');
     });
 
     // Save data
