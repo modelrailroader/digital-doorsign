@@ -1,0 +1,6 @@
+# PHPStorm files
+.idea
+
+# Project-specific files
+#settings.json
+#data.json

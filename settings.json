@@ -1,0 +1,30 @@
+{
+    "file": "settings",
+    "data": {
+        "modus1": {
+            "systemName": "",
+            "bigText": "",
+            "smallText": ""
+        },
+        "modus2": {
+            "systemName": "",
+            "bigText": "",
+            "smallText": ""
+        },
+        "modus3": {
+            "systemName": "",
+            "bigText": "",
+            "smallText": ""
+        },
+        "modus4": {
+            "systemName": "",
+            "bigText": "",
+            "smallText": ""
+        },
+        "modus5": {
+            "systemName": "",
+            "bigText": "",
+            "smallText": ""
+        }
+    }
+}
