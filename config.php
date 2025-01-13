@@ -8,7 +8,7 @@
 *
 * @package   digital-doorsign
 * @author    Jan Harms <model_railroader@gmx-topmail.de
-* @copyright 2024 Jan Harms
+* @copyright 2025 Jan Harms
 * @license   https://www.mozilla.org/MPL/2.0/ Mozilla Public License Version 2.0
 * @since     2024-09-01
 */
