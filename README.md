@@ -9,4 +9,4 @@ cd digital-doorsign
 
 For further information, do not hesitate to [contact me](mailto:model_railroader@gmx-topmail.de).
 
-Copyright Jan Harms © 2025
+Copyright Jan Harms © 2026
